@@ -1,0 +1,211 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css"
+		],
+		"refer": []
+	},
+	"login.html": {
+		"resources": [
+			"css/mui.min.css",
+			"css/style.css",
+			"images/user-photo.png",
+			"js/app.js",
+			"js/mui.min.js",
+			"js/mui.enterfocus.js",
+			"fonts/mui.ttf"
+		],
+		"refer": [
+			"main.html",
+			"forget_password.html",
+			"reg.html"
+		]
+	},
+	"main.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"/js/mui.min.js",
+			"tab-webview-subpage-about.html",
+			"subpage/home.html",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/icons-extra.css"
+		],
+		"refer": [
+			"tab-webview-subpage-about.html",
+			"tab-webview-subpage-setting.html",
+			"tab-webview-subpage-chat.html",
+			"tab-webview-subpage-contact.html",
+			"subpage/setting.html",
+			"subpage/district.html",
+			"subpage/check.html",
+			"subpage/home.html"
+		]
+	},
+	"subpage/district.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/app.css",
+			"fonts/mui.ttf"
+		]
+	},
+	"reg.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"js/app.js",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/style.css"
+		],
+		"refer": [
+			"login.html"
+		]
+	},
+	"subpage/setting.html": {
+		"refer": [
+			"login.html",
+			"settingInfo/changePassword.html"
+		],
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"settingInfo/changePassword.html"
+		]
+	},
+	"subpage/home.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/app.js",
+			"js/mui.enterfocus.js"
+		],
+		"refer": [
+			"home_info/input.html",
+			"home_info/search.html",
+			"home_info/out.html"
+		]
+	},
+	"home_info/input.html": {
+		"resources": [
+			"css/mui.poppicker.css",
+			"css/mui.picker.css",
+			"js/app.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/style.css",
+			"js/mui.enterfocus.js",
+			"js/mui.min.js",
+			"js/mui.picker.js",
+			"js/mui.poppicker.js"
+		]
+	},
+	"home_info/search.html": {
+		"resources": [
+			"js/mui.picker.js",
+			"js/mui.poppicker.js",
+			"css/style.css",
+			"css/mui.poppicker.css",
+			"css/mui.picker.css",
+			"js/app.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/mui.enterfocus.js"
+		],
+		"refer": [
+			"subpage/home.html",
+			"home_info/search_display.html"
+		]
+	},
+	"home_info/out.html": {
+		"resources": [
+			"js/mui.picker.js",
+			"js/mui.poppicker.js",
+			"css/mui.poppicker.css",
+			"css/mui.picker.css",
+			"css/style.css",
+			"js/app.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/mui.enterfocus.js"
+		]
+	},
+	"home_info/search_display.html": {
+		"resources": [
+			"js/mui.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		]
+	},
+	"subpage/check.html": {
+		"resources": [
+			"js/common.js",
+			"css/common.css",
+			"js/immersed.js",
+			"img/barcode.png",
+			"css/mui.min.css",
+			"css/style.css",
+			"fonts/mui-icons-extra.ttf",
+			"css/own.css",
+			"css/iconfont.css"
+		],
+		"refer": [
+			"subpage/barcode/barcode_scan.html",
+			"barcode/barcode_scan.html",
+			"barcode/barcode_scan2.html"
+		]
+	},
+	"barcode/barcode_scan.html": {
+		"resources": [
+			"js/common.js",
+			"css/common.css",
+			"css/mui.min.css",
+			"css/style.css",
+			"fonts/mui.ttf",
+			"subpage/check.html",
+			"js/app.js",
+			"js/mui.min.js",
+			"js/mui.enterfocus.js"
+		],
+		"refer": [
+			"subpage/check.html",
+			"barcode/scan_display.html"
+		]
+	},
+	"barcode/barcode_scan2.html": {
+		"resources": [
+			"js/common.js",
+			"css/common.css",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/style.css"
+		]
+	},
+	"barcode/scan_display.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"js/immersed.js"
+		]
+	},
+	"settingInfo/changePassword.html": {
+		"resources": [
+			"js/mui.picker.js",
+			"js/mui.poppicker.js",
+			"css/mui.poppicker.css",
+			"css/mui.picker.css",
+			"js/app.js",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/style.css",
+			"js/mui.enterfocus.js",
+			"fonts/mui.ttf"
+		]
+	}
+}
